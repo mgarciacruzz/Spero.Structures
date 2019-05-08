@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spero.Structures", "Spero.Structures\Spero.Structures.csproj", "{2537E1CC-DECE-4A1E-B2D8-8C43F770BF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spero.Structures.Heap", "Spero.Structures.Heap\Spero.Structures.Heap.csproj", "{7ED66C79-7745-4D3C-B3DF-155BBA8F61D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{524FFD7C-786E-4765-9B90-3CA72B7568DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spero.Structures.Tests", "Tests\Spero.Structures.Heap.Tests\Spero.Structures.Tests.csproj", "{1182546A-A140-4B36-885A-D001B5005135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2537E1CC-DECE-4A1E-B2D8-8C43F770BF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2537E1CC-DECE-4A1E-B2D8-8C43F770BF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2537E1CC-DECE-4A1E-B2D8-8C43F770BF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2537E1CC-DECE-4A1E-B2D8-8C43F770BF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED66C79-7745-4D3C-B3DF-155BBA8F61D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED66C79-7745-4D3C-B3DF-155BBA8F61D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED66C79-7745-4D3C-B3DF-155BBA8F61D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED66C79-7745-4D3C-B3DF-155BBA8F61D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1182546A-A140-4B36-885A-D001B5005135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1182546A-A140-4B36-885A-D001B5005135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1182546A-A140-4B36-885A-D001B5005135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1182546A-A140-4B36-885A-D001B5005135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1182546A-A140-4B36-885A-D001B5005135} = {524FFD7C-786E-4765-9B90-3CA72B7568DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF6AE215-5A83-4381-869B-5D5FAF2C464C}
+	EndGlobalSection
+EndGlobal
