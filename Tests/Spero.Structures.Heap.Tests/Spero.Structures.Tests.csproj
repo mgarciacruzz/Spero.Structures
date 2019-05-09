@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BSTreeTests.cs" />
     <Compile Include="HeapTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,6 +57,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Spero.Structures.BSTree\Spero.Structures.BSTree.csproj">
+      <Project>{02e8ddd2-0174-4124-9c3b-2219e1889ba0}</Project>
+      <Name>Spero.Structures.BSTree</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Spero.Structures.Heap\Spero.Structures.Heap.csproj">
       <Project>{7ed66c79-7745-4d3c-b3df-155bba8f61d8}</Project>
       <Name>Spero.Structures.Heap</Name>
