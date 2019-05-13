@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02E8DDD2-0174-4124-9C3B-2219E1889BA0}</ProjectGuid>
+    <ProjectGuid>{56DDD81B-05A9-411F-8626-47D127C5555B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Spero.Structures</RootNamespace>
@@ -41,12 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseTree.cs" />
-    <Compile Include="BSTree.cs" />
-    <Compile Include="IBSTree.cs" />
-    <Compile Include="INode.cs" />
-    <Compile Include="Node.cs" />
+    <Compile Include="AVLTree.cs" />
+    <Compile Include="IAVLTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spero.Structures.BSTree\Spero.Structures.BSTree.csproj">
+      <Project>{02e8ddd2-0174-4124-9c3b-2219e1889ba0}</Project>
+      <Name>Spero.Structures.BSTree</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

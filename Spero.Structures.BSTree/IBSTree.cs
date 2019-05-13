@@ -14,6 +14,11 @@ namespace Spero.Structures
         int Count{ get; }
 
         /// <summary>
+        /// Root of the tree
+        /// </summary>
+        INode<T> Root { get; }
+
+        /// <summary>
         /// Inserts a value into the tree
         /// </summary>
         /// <param name="value"></param>

@@ -6,14 +6,22 @@ using System.Threading.Tasks;
 
 namespace Spero.Structures
 {
-    public class Node<T>:IDisposable where T:IComparable<T>
+    public class Node<T>:INode<T> where T:IComparable<T>
     {
         #region Ctors
         public Node(T value)
         {
             Value = value;
         }
+
+        public Node(T value, int height)
+            : this(value)
+        {
+            Height = height;
+        }
         #endregion
+
+        public int Height { get; set; }
 
         /// <summary>
         /// Value of the node
@@ -23,12 +31,13 @@ namespace Spero.Structures
         /// <summary>
         /// Reference to left node
         /// </summary>
-        public Node<T> Left { get; set; }
+        public INode<T> Left { get; set; }
 
         /// <summary>
         /// Reference to right node
         /// </summary>
-        public Node<T> Right { get; set; }
+        public INode<T> Right { get; set; }
+
 
         /// <summary>
         /// Free references to the nodes
